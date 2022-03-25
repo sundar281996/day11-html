@@ -1,0 +1,68 @@
+body { background-color: white; }
+
+.centered {
+	text-align: center;
+}
+
+nav {
+	display: block;
+	clear: both;
+	margin-top: 0.5em;
+	border-top: 1px solid black;
+	padding-top: 0.5em;
+	text-align: center;
+	font-size: small;
+}
+
+h1 {
+	font-size: 125%;
+}
+
+h2 {
+	font-size: 110%;
+}
+
+.inset {
+	margin: 1em;
+	padding: 0.25em 0.5em 0.25em 0.5em;
+}
+
+.bordered {
+	border: 2px solid black;
+	padding: 0.25em;
+}
+
+table.bordered {
+	border: 1px solid black;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+table.bordered td, table.bordered th {
+	border: 1px solid black;
+	padding: 4px;
+}
+
+.ul { text-decoration: underline; }
+
+.floatright { float: right; }
+.floatleft { float: left; }
+.clearright { clear: right; }
+.clearleft { clear: left; }
+.clearboth { clear: both; }
+
+.dim {
+	color: gray;
+}
+
+.hilite { color: red; }
+.hilite2 { color: green; }
+.hilite3 { color: teal; }
+
+.border{
+    border: solid 1px black;
+    margin: auto;
+   
+    height: 300px;
+    width: 400px;
+    margin-bottom: 0px;}
